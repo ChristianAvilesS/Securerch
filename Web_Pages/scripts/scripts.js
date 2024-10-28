@@ -29,8 +29,10 @@ function ingresoUsuario() {
             var password = document.getElementById("password").value;
             var esValido = false;
             for (var jsonObj of value) {
-                if (jsonObj.correo == correoAct && jsonObj.password == password)
+                if (jsonObj.correo == correoAct && jsonObj.password == password) {
                     esValido = true;
+                    break;
+                }
             }
 
             if (!esValido) {
