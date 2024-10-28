@@ -50,6 +50,10 @@ span {
     margin-right: 20px;
 }
 
+a {
+    color: #4734f6;
+}
+
 a:link {
     color: #4734f6;
 }
@@ -295,9 +299,9 @@ a {
     margin: 20px 10px 10px 10px;
 }
 
-.sesion-usuario #registrar {
+.sesion-usuario .texto-espaciado {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 /*  Mapa  */
