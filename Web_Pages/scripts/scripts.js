@@ -22,7 +22,7 @@ function validarFormIngreso(forma){
 function ingresoUsuario() {
     var form = document.getElementById("formRegistro");
     if (validarFormIngreso(form)) {
-        fetch("/scripts/usuarios.json")
+        fetch("../scripts/usuarios.json")
         .then(response => response.json())
         .then(value => {
             var correoAct = document.getElementById("correo").value;
