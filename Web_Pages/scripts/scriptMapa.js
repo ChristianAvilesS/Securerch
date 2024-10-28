@@ -5,6 +5,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
 function crearZonasPeligro() {
     leerJson().then(value => {
+        console.log(value);
         for (var jsonObj of value) {
             L.circle([jsonObj.lng, jsonObj.lat], {
                 color: 'transparent',       // quitar el borde
