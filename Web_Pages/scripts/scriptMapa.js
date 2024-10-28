@@ -31,7 +31,7 @@ function obtenerColorAUsar(peligrosidad = 5.00) {
 
 
 function leerJson() {
-    return fetch("../zonas.json")
+    return fetch("/Web_Pages/scripts/zonas.json")
         .then(response => response.json());
 }
 
