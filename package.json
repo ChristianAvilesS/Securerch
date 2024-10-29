@@ -1,0 +1,24 @@
+{
+    "name": "securerch-app",
+    "version": "1.0.0",
+    "description": "Página web de Securerch",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "express": "^4.21.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ChristianAvilesS/Securerch.git"
+    },
+    "author": "Grupo 1",
+    "license": "MIT",
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/ChristianAvilesS/Securerch/issues"
+    },
+    "homepage": "https://github.com/ChristianAvilesS/Securerch/Web_Pages/pages/index.html"
+}
